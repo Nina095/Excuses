@@ -9,7 +9,6 @@ window.onload = () => {
   document.querySelector("#btn").addEventListener("click", () => {
     document.querySelector("#excuse").innerHTML = generateExcuse();
   });
-  console.log("Hello Rigo from the console!");
 };
 
 let generateExcuse = () => {
